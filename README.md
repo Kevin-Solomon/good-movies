@@ -1,3 +1,3 @@
 # good-movies
-Created with CodeSandbox
-An emoji dictionary built using ReactJs
+Created with CodeSandbox.
+An movie dictionary built using ReactJs .
