@@ -3,10 +3,13 @@ import "./styles.css";
 const movies = [
   { name: "Tenet", rating: "5/5", genre: "action" },
   { name: "Extraction", rating: "5/5", genre: "action" },
+  { name: "Anna", rating: "3.5/5", genre: "action" },
   { name: "Jumaji", rating: "4/5", genre: "comedy" },
   { name: "Tag", rating: "3.9/5", genre: "comedy" },
+  { name: "Work It", rating: "4.5/5", genre: "comedy" },
   { name: "Shining", rating: "5/5", genre: "horror" },
-  { name: "Annabelle", rating: "4/5", genre: "horror" }
+  { name: "Annabelle", rating: "4/5", genre: "horror" },
+  { name: "Oxygen", rating: "4.5/5", genre: "horror" }
 ];
 export default function App() {
   const [movie, setMovies] = useState(movies);
@@ -80,7 +83,7 @@ export default function App() {
           </span>
         ))}
       </div>
-<footer className="footer">
+      <footer className="footer">
         <div className="footer-header">contact me</div>
         <ul className="social-links list-non-bullet ">
           <li className="list-item-inline">
